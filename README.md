@@ -16,10 +16,14 @@
 Lokální spuštění používá nodemon, který automaticky aktualizuje vaši aplikaci při změně v kódu.
 
 #### Linux a macOS
-`ENV=development npm start`
+```
+ENV=development npm start
+```
 
 #### Windows (cmd)
-`set ENV=development & npm start`
+```
+set ENV=development & npm start
+```
 
 Aplikace ve výchozím stavu běží na [`http://localhost:3000`](http://localhost:3000)
 
