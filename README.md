@@ -27,7 +27,7 @@ Aplikace ve výchozím stavu běží na [`http://localhost:3000`](http://localho
 **Windows uživatelé spouštějte ve WSL terminálu**
 ```
 docker build . -t tda-express
-docker run -p 8080:80 -v ${PWD}:/app tda-express
+docker run -p 8080:80 tda-express
 ```
 
 ## Struktura
