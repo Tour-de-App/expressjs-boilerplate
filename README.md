@@ -7,7 +7,7 @@
 
 ## Instalace
 
-1. `git clone https://github.com/Tour-de-App/template-express-js tda-express`
+1. `git clone https://github.com/Tour-de-App/expressjs-boilerplate tda-express`
 2. `cd tda-express`
 3. `npm install`
 
