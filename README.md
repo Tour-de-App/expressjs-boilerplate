@@ -16,11 +16,13 @@
 Lokální spuštění používá nodemon, který automaticky aktualizuje vaši aplikaci při změně v kódu.
 
 #### Linux a macOS
+
 ```
 ENV=development npm start
 ```
 
 #### Windows (cmd)
+
 ```
 set ENV=development & npm start
 ```
@@ -28,7 +30,9 @@ set ENV=development & npm start
 Aplikace ve výchozím stavu běží na [`http://localhost:3000`](http://localhost:3000)
 
 ### Docker spuštění
+
 **Windows uživatelé spouštějte ve WSL terminálu**
+
 ```
 docker build . -t tda-express
 docker run -p 8080:80 tda-express
@@ -36,7 +40,7 @@ docker run -p 8080:80 tda-express
 
 ## Struktura
 
-- Složka `public` obsahuje __statické__ soubory (CSS, JS apod.)
+- Složka `public` obsahuje **statické** soubory (CSS, JS apod.)
 - Složka `views` obsahuje šablony stránek napsané v jazyce [Pug](https://pugjs.org/api/getting-started.html)
   - Pug nám umožňuje do stránek vkládat obah dynamicky z kódu, používat funkce nebo podmínky
   - Pro více info se podívejte na dokumentaci Pug
@@ -48,4 +52,4 @@ Pro více informací si pročtěte [oficiální Express tutoriál](https://expre
 
 ## Odevzdání
 
-TODO: sepsat podle finální verze odevzdávacího systému
+Jak odevzdat svojí aplikaci můžete najít v našich [vzdělávacích materiálech](https://tourde.app/vzdelavaci-materialy/jak-odevzdavat)
